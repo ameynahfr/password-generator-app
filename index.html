@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Password Generator App</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+         <!-- Main Container for App -->
+        <div class="container">
+
+             <!-- Header -->
+            <h1>Password Generator App</h1>
+
+             <!-- Copy the generated password -->
+            <div class="setting clipboard" onclick="copy()">
+                <span class="result">
+                    CLICK TO COPY PASSWORD
+                </span>
+                    
+            </div>
+
+             <!-- Password length adjustments -->
+            <div class="range-container">
+                <label for="range-input" class="range-label">Length:</label>
+                <span id="range-value" class="range-value">8</span>
+                <div class="range-container setting">
+                    <input 
+                    type="range" 
+                    class="custom-range-input"
+                    id="range-input" 
+                    min="4" 
+                    max="32" 
+                    value="8" 
+                    step="1" 
+                    oninput="updateRangeValue()" 
+                    >
+                </div>
+            </div>
+             <!-- Settings -->
+            <h3>SETTINGS</h3>
+            <div class="settings">
+                <div class="setting">
+                    <input type="checkbox" id="uppercase" onchange="handleCheckboxChange()" checked />
+                    <label for="uppercase"> Include Uppercase</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="lowercase" onchange="handleCheckboxChange()" checked />
+                    <label for="lowercase"> Include Lowercase</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="number" onchange="handleCheckboxChange()" checked />
+                    <label for="number"> Include Numbers</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="symbol" onchange="handleCheckboxChange()" />
+                    <label for="symbol"> Include Symbols</label>
+                </div>
+            </div>
+             <!-- Generate password button -->
+            <button class="button" onclick="generatePassword()">GENERATE PASSWORD</button>
+        </div>
+    </body>
+    <script src="index.js">
+    </script>
+</html>

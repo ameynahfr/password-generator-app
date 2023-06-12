@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #586A70;
+    color: white;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+}
+
+
+.container {
+    background: #0a0e31;
+    border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+    /*background-color: #586A70;*/
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    /*border:#758E96 solid;*/
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+span {
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+
+.setting {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    box-shadow: black;
+}
+
+.result {
+    text-align: center;
+    align-items: center;
+}
+
+.clipboard:hover {
+    border: white solid;
+    text-align: center;
+}
+
+
+.range-container {
+    
+    margin-top: 10px;
+  }
+  
+  .range-label {
+    font-family: 'Nunito',sans-serif;
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .range-value {
+    
+    font-weight: bold;
+  }
+
+
+  #range-input {
+    width: 100%;    
+  }
+
+input[type="checkbox"] {
+    margin: 20px;
+
+}
+/* This is a CSS comment */
+
+
+
+.button {
+    margin-top: 40px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    /*background-color: #758E96;*/
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	letter-spacing: 1px;
+	font-weight: bold;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.button:hover {
+    border: white solid;
+}
