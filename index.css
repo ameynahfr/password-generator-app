@@ -51,6 +51,11 @@ span {
 
 }
 
+p {
+    text-align: center;
+    color: #10B981;
+}
+
 
 .setting {
     font-size: 18px;
@@ -88,7 +93,7 @@ span {
   }
   
   .range-value {
-    
+    color: #10B981;
     font-weight: bold;
   }
 
@@ -117,8 +122,14 @@ input[type="checkbox"] {
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
 .button:hover {
     border: white solid;
+}
+
+#button-img {
+    width: 15px;
+    
 }
