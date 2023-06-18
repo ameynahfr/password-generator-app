@@ -20,7 +20,7 @@ body {
 .container {
     background: #0a0e31;
     border-radius: 10px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
     /*background-color: #586A70;*/
     width: 470px;
     display: flex;
@@ -28,7 +28,7 @@ body {
     /*border:#758E96 solid;*/
     margin: 20px auto;
     padding: 20px;
-    max-width: 380px;
+    max-width: 420px;
 }
 
 h1 {
@@ -83,31 +83,32 @@ p {
 
 
 .range-container {
-    
+
     margin-top: 10px;
-  }
-  
-  .range-label {
-    font-family: 'Nunito',sans-serif;
+}
+
+.range-label {
+    font-family: 'Nunito', sans-serif;
     margin-right: 10px;
     font-weight: bold;
     letter-spacing: 1px;
-  }
-  
-  .range-value {
+}
+
+.range-value {
     color: #10B981;
     font-weight: bold;
-  }
+}
 
 
-  #range-input {
-    width: 100%;    
-  }
+#range-input {
+    width: 100%;
+}
 
 input[type="checkbox"] {
     margin: 20px;
 
 }
+
 /* This is a CSS comment */
 
 
@@ -119,8 +120,8 @@ input[type="checkbox"] {
     border: none;
     /*background-color: #758E96;*/
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	letter-spacing: 1px;
-	font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: bold;
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
@@ -133,13 +134,14 @@ input[type="checkbox"] {
 
 #button-img {
     width: 15px;
-    
+
 }
 
 @media (max-width: 600px) {
+
     /* Adjust the width and margin for smaller screens */
     .container {
-      width: 100%;
-      margin: 20px 10px;
+        width: 100%;
+        margin: 20px 10px;
     }
-  }
+}
