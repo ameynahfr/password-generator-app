@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #586A70;
+    background-color: #0a0e31;
     color: white;
     justify-content: center;
     font-family: 'Nunito', sans-serif;
@@ -22,13 +22,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
     /*background-color: #586A70;*/
-    width: 470px;
     display: flex;
     flex-direction: column;
     /*border:#758E96 solid;*/
     margin: 20px auto;
     padding: 20px;
-    max-width: 420px;
+    max-width: 480px;
 }
 
 h1 {
